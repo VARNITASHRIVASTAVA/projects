@@ -3,5 +3,34 @@
     <head>
         <title>experiment5</title>
     </head>
-    <body></body>
+    <body>
+        <h2 align="center"> Student Registration Form </h2>
+       
+       <hr> <form >
+            <label for="full name">Full Name:</label>
+            <input type="text" name="fullname" required placeholder="Enter your full name"/><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required placeholder="Enter your email address"/><br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required placeholder="Enter password"/><br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Male" required/>Male <input type="radio" name="gender" value="female" required/>Female <input type="radio"  name="gender" value="other" required/>Other<br><br>
+        <label for="course">Course:</label>
+        <select name="course" required/><option value=" ">--Select Course--
+            <option value="B.Tech.">B.Tech.</option>
+            <option value="M.Tech.">M.Tech.</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+        </select><br><br>
+        </option>
+        <label for=" Contact Number">Contact Number:</label>
+        <input type="number" name="contactnumber" min ="0" required placeholder="Enter phone  number"/><br><br>
+        <label for="address">Address:</label><br>
+        <textarea name="address" rows="4" cols="30" placeholder="Enter your address"></textarea><br><br>
+        <input type="submit" value="Register"/>
+        <input type="reset" value="Clear"/>
+        <hr>
+        <center> &copy; 2025 Student Registration Portal</center>
+        </form>
+    </body>
 </html>
