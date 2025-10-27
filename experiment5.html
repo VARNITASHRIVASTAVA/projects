@@ -6,7 +6,7 @@
     <body>
         <h2 align="center"> Student Registration Form </h2>
        
-       <hr> <form >
+       <hr> <form method="post" action="submit.html">
             <label for="full name">Full Name:</label>
             <input type="text" name="fullname" required placeholder="Enter your full name"/><br><br>
             <label for="email">Email:</label>
@@ -16,7 +16,7 @@
             <label for="gender">Gender:</label>
             <input type="radio" name="gender" value="Male" required/>Male <input type="radio" name="gender" value="female" required/>Female <input type="radio"  name="gender" value="other" required/>Other<br><br>
         <label for="course">Course:</label>
-        <select name="course" required/><option value=" ">--Select Course--
+        <select name="course" required/><option value=" ">--Select Course--</option>
             <option value="B.Tech.">B.Tech.</option>
             <option value="M.Tech.">M.Tech.</option>
             <option value="MBA">MBA</option>
