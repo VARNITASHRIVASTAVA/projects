@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; 
+}
+
+.navigation-container {
+    width: 99%;
+    border: 1px solid #ccc;
+    padding: 0;
+    background-color: white;
+}
+
+
+.header {
+    background-color: #d8d8d8; 
+    color: #444;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.website-word {
+    color: #cc0000;
+}
+
+
+.nav-list {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex; 
+    gap: 5px; 
+}
+
+/* General Link/Button Styling */
+.nav-link {
+    display: block; /* Makes the entire area clickable */
+    text-decoration: none;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border for definition */
+}
+
+/* Light Blue Background for the Top Row */
+.blue-bg {
+    background-color: #b3e5fc; /* Lighter Blue */
+    color: #7a4fd1; /* Darker blue text */
+}
+
+.blue-bg:hover {
+    background-color: #81d4fa; /* Slightly darker on hover */
+}
+
+/* Light Green Background for the Bottom Row */
+.green-bg {
+    background-color: #c8e6c9; /* Lighter Green */
+    color: #bf30e2; /* Darker green text */
+}
+
+.green-bg:hover {
+    background-color: #a5d6a7; }
